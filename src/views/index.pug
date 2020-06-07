@@ -1,0 +1,20 @@
+head
+  meta(charset='UTF-8')
+  title SearchEngine
+  style
+    include index.css
+  script
+    include index.js
+.search_engine
+  h5 Moteur de recherche ElasticSearch
+  form(action='/', method='post')
+    p#actor_field Acteur:
+    input#actor(type='text')
+    p#theme_field Th&egrave;me:
+    input#theme(type='text')
+    pre.submitfield
+      button(style='white-space:pre;', type='submit') Rechercher
+
+
+  p#results
+

@@ -1,0 +1,7 @@
+{
+    "query":{
+        "match":{
+            "fields.title":"Star Wars"
+        }
+    }
+}
